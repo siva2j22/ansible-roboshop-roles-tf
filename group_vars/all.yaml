@@ -4,6 +4,7 @@ CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.dawsjakkam.fun
 CART_HOST: cart.backend-alb-{{ env }}.dawsjakkam.fun
 USER_HOST: user.backend-alb-{{ env }}.dawsjakkam.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.dawsjakkam.fun
-MYSQL_HOST: mysql-{{ env }}.dawsjakkam.fun
+#MYSQL_HOST: mysql-{{ env }}.dawsjakkam.fun
+MYSQL_HOST: 10.0.21.8
 SHIPPING_HOST: shipping.backend-alb-{{ env }}.dawsjakkam.fun
 PAYMENT_HOST: payment.backend-alb-{{ env }}.dawsjakkam.fun
