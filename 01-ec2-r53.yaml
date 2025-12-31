@@ -3,7 +3,7 @@
   connection: local
   vars:
     ami_id: ami-09c813fb71547fc4f
-    sg_id: sg-07c8acf3fa6b923fa # replace with your SG ID
+    sg_id: sg-000825d48acfbb7bf # replace with your SG ID
     zone_id: "Z0462684FV5U34P7ASOD" # replace with your ID
     domain_name: "dawsjakkam.fun"
     # we can pass instances through command line using -e
